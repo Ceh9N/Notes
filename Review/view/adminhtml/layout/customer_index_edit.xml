@@ -1,0 +1,11 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="customer_form">
+            <block class="Arsenchik\Review\Block\Adminhtml\Reviews\Notes" name="customer_review_notes" >
+                <action method="setTabLabel">
+                    <argument name="label" xsi:type="string">New Notes</argument>
+                </action>
+            </block>
+        </referenceBlock>
+    </body>
+</page>
